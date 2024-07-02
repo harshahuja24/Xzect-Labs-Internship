@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Magma Landing Page</title>
+</head>
+<body class="font-sans">
+    <!-- Nav Bar -->
+    <nav class="bg-white fixed w-full z-10 shadow-md">
+        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <a href="#" class="flex items-center">
+                <img src="https://landing.zytheme.com/magma/assets/images/logo/logo-dark.svg" alt="Logo" class="h-8">
+            </a>
+            <div class="hidden md:flex items-center space-x-6">
+                <a href="#" class="text-gray-800 hover:text-orange-500">Home</a>
+                <a href="#about-us" class="text-gray-800 hover:text-orange-500">About Us</a>
+                <a href="#facts" class="text-gray-800 hover:text-orange-500">Facts</a>
+                <a href="#pricing-table" class="text-gray-800 hover:text-orange-500">Pricing</a>
+                <a href="#testimonial" class="text-gray-800 hover:text-orange-500">Testimonial</a>
+                <a href="#subscribe" class="text-gray-800 hover:text-orange-500">Subscribe</a>
+                <div class="flex space-x-4">
+                    <a href="#" class="text-gray-800 hover:text-orange-500"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-gray-800 hover:text-orange-500"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-gray-800 hover:text-orange-500"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="h-screen bg-cover bg-center flex items-center justify-center" style="background-image: url('https://landing.zytheme.com/magma/assets/images/background/bg-hero.jpg');">
+        <div class="text-center text-white z-10">
+            <p class="text-xl mb-4">The Best in Market</p>
+            <h1 class="text-5xl font-bold mb-8">Online Services from leading experts in Market</h1>
+            <a href="#" class="bg-orange-500 text-white px-8 py-3 rounded-full hover:bg-orange-600 transition duration-300">Start Your Service</a>
+        </div>
+    </div>
+
+    <!-- Cards Section -->
+    <div class="container mx-auto px-6 py-16">
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                <i class="far fa-clipboard text-4xl text-orange-500 mb-4"></i>
+                <h3 class="text-xl font-semibold mb-2">Data Analysis</h3>
+                <p class="text-gray-600">This Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                <i class="fas fa-pencil-ruler text-4xl text-orange-500 mb-4"></i>
+                <h3 class="text-xl font-semibold mb-2">Graphic Design</h3>
+                <p class="text-gray-600">This should. Lorem ipsum dolor sit.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg text-center">
+                <i class="fas fa-camera-retro text-4xl text-orange-500 mb-4"></i>
+                <h3 class="text-xl font-semibold mb-2">Photography</h3>
+                <p class="text-gray-600">This should be Lorem ipsum dolor sit.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pricing Table Section -->
+    <section id="pricing-table" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <p class="text-gray-600 mb-2">Pricing Table</p>
+                <h2 class="text-3xl font-bold">Without Hidden Charges</h2>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <div class="p-8">
+                        <h3 class="text-2xl font-semibold mb-4">Basic Plan</h3>
+                        <p class="text-4xl font-bold mb-6">$15 <span class="text-gray-500 text-base font-normal">/month</span></p>
+                        <ul class="mb-8 space-y-2">
+                            <li><i class="fas fa-check text-green-500 mr-2"></i> Amazing Features</li>
+                            <li><i class="fas fa-check text-green-500 mr-2"></i> 4 Gb Storage</li>
+                            <li><i class="fas fa-check text-green-500 mr-2"></i> Domain Included</li>
+                            <li class="text-gray-400"><i class="fas fa-times text-red-500 mr-2"></i> Unlimited Users</li>
+                            <li class="text-gray-400"><i class="fas fa-times text-red-500 mr-2"></i> Unlimited Support</li>
+                        </ul>
+                        <button class="w-full bg-orange-500 text-white py-2 rounded-full hover:bg-orange-600 transition duration-300">Start your services</button>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <div class="p-8">
+                        <h3 class="text-2xl font-semibold mb-4">Basic Plan</h3>
+                        <p class="text-4xl font-bold mb-6">$15 <span class="text-gray-500 text-base font-normal">/month</span></p>
+                        <ul class="mb-8 space-y-2">
+                            <li><i class="fas fa-check text-green-500 mr-2"></i> Amazing Features</li>
+                            <li><i class="fas fa-check text-green-500 mr-2"></i> 4 Gb Storage</li>
+                            <li><i class="fas fa-check text-green-500 mr-2"></i> Domain Included</li>
+                            <li class="text-gray-400"><i class="fas fa-times text-red-500 mr-2"></i> Unlimited Users</li>
+                            <li class="text-gray-400"><i class="fas fa-times text-red-500 mr-2"></i> Unlimited Support</li>
+                        </ul>
+                        <button class="w-full bg-orange-500 text-white py-2 rounded-full hover:bg-orange-600 transition duration-300">Start your services</button>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <div class="p-8">
+                        <h3 class="text-2xl font-semibold mb-4">Basic Plan</h3>
+                        <p class="text-4xl font-bold mb-6">$15 <span class="text-gray-500 text-base font-normal">/month</span></p>
+                        <ul class="mb-8 space-y-2">
+                            <li><i class="fas fa-check text-green-500 mr-2"></i> Amazing Features</li>
+                            <li><i class="fas fa-check text-green-500 mr-2"></i> 4 Gb Storage</li>
+                            <li><i class="fas fa-check text-green-500 mr-2"></i> Domain Included</li>
+                            <li class="text-gray-400"><i class="fas fa-times text-red-500 mr-2"></i> Unlimited Users</li>
+                            <li class="text-gray-400"><i class="fas fa-times text-red-500 mr-2"></i> Unlimited Support</li>
+                        </ul>
+                        <button class="w-full bg-orange-500 text-white py-2 rounded-full hover:bg-orange-600 transition duration-300">Start your services</button>
+                    </div>
+                </div>
+                <!-- Repeat for Medium and Professional plans -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section id="testimonial" class="py-16">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-wrap items-center">
+                <div class="w-full md:w-1/2 mb-8 md:mb-0">
+                    <img src="https://landing.zytheme.com/magma/assets/images/testimonials/left-bg.svg" alt="" class="w-full">
+                </div>
+                <div class="w-full md:w-1/2">
+                    <div class="bg-white p-8 rounded-lg shadow-lg">
+                        <p class="text-xl italic mb-4">"This should be used to tell a story and include any testimonials you might have about your product or service for your clients"</p>
+                        <p class="font-semibold">Mark Smith</p>
+                        <p class="text-gray-600">Envato Inc</p>
+                        <div class="flex mt-4">
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                            <i class="fas fa-star text-yellow-400"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Subscribe Form -->
+    <section id="subscribe" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <div class="max-w-md mx-auto text-center">
+                <h2 class="text-3xl font-bold mb-2">Get Offers</h2>
+                <h3 class="text-xl mb-8">Subscribe to our newsletter</h3>
+                <form class="flex">
+                    <input type="email" placeholder="Enter Your E-Mail" class="flex-grow px-4 py-2 rounded-l-full focus:outline-none focus:ring-2 focus:ring-orange-500">
+                    <button type="submit" class="bg-orange-500 text-white px-6 py-2 rounded-r-full hover:bg-orange-600 transition duration-300">Start your services</button>
+                </form>
+                <p class="text-gray-600 mt-4 text-sm">Give it a try: it only takes a click to unsubscribe</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-wrap justify-between">
+                <div class="w-full md:w-1/4 mb-8 md:mb-0">
+                    <img src="https://landing.zytheme.com/magma/assets/images/logo/logo-dark.svg" alt="Logo" class="h-8 mb-4">
+                    <p>795 south park, wonderlan, australia</p>
+                    <p>Magmasite@Envato.com</p>
+                    <p>Mon. -Fri. 8am to 5pm</p>
+                </div>
+                <div class="w-full md:w-1/4 mb-8 md:mb-0">
+                    <p>+(123)456-789-102</p>
+                    <p>www.Envato.com</p>
+                    <p>sat. 8am to 11pm</p>
+                </div>
+                <div class="w-full md:w-1/4">
+                    <p>@2024 All CopyWrite Reserved</p>
+                    <div class="flex mt-4 space-x-4">
+                        <a href="#" class="hover:text-orange-500"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="hover:text-orange-500"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="hover:text-orange-500"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
